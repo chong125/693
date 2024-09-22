@@ -1,0 +1,145 @@
+2024-08-29 15:30:51.100  INFO 3791 --- [main] c.l.s.SpringBootLibraryApplication       : Starting SpringBootLibraryApplication using Java 16 on ouokiyas-MacBook-Air.local with PID 3791 (/Users/wangchongye/Desktop/spring-boot-library/spring-boot-library/target/classes started by wangchongye in /Users/wangchongye/Desktop/spring-boot-library)
+2024-08-29 15:30:51.286  INFO 3791 --- [main] c.l.s.SpringBootLibraryApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-29 15:30:56.605  INFO 3791 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 15:30:57.194  INFO 3791 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 517 ms. Found 5 JPA repository interfaces.
+2024-08-29 15:31:09.850  INFO 3791 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-29 15:31:09.905  INFO 3791 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-29 15:31:09.907  INFO 3791 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-08-29 15:31:10.625  INFO 3791 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-29 15:31:10.629  INFO 3791 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 18723 ms
+2024-08-29 15:31:12.226  INFO 3791 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29 15:31:14.081  INFO 3791 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29 15:31:15.025  INFO 3791 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 15:31:15.339  INFO 3791 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-08-29 15:31:16.780  INFO 3791 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-29 15:31:17.960  INFO 3791 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-29 15:31:21.616  INFO 3791 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 15:31:21.725  INFO 3791 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 15:31:59.525  WARN 3791 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 15:32:21.244  INFO 3791 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2220c5f7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bb90b89, org.springframework.security.web.context.SecurityContextPersistenceFilter@1256925b, org.springframework.security.web.header.HeaderWriterFilter@170f0fd6, org.springframework.web.filter.CorsFilter@10b0dd3a, org.springframework.security.web.authentication.logout.LogoutFilter@263f6e96, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@1ed0128b, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@44b82007, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@590f806a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4c231f62, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@5248c05a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@eb09112, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28521ed5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6888746c, org.springframework.security.web.session.SessionManagementFilter@1adec8d, org.springframework.security.web.access.ExceptionTranslationFilter@7359f3ac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54f62ac6]
+2024-08-29 15:32:28.310  INFO 3791 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 15:32:29.291  INFO 3791 --- [main] c.l.s.SpringBootLibraryApplication       : Started SpringBootLibraryApplication in 111.265 seconds (JVM running for 114.789)
+2024-08-29 15:33:03.637  INFO 3791 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 15:33:03.969  INFO 3791 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-29 15:33:05.649  INFO 3791 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1640 ms
+2024-08-29 15:33:12.208  INFO 3791 --- [http-nio-8080-exec-2] c.l.s.controller.BookController          : testtesttest
+2024-08-29 15:34:15.767  INFO 3791 --- [http-nio-8080-exec-10] c.l.s.controller.BookController          : testtesttest
+2024-08-29 15:35:36.148  INFO 3791 --- [http-nio-8080-exec-5] c.l.s.controller.BookController          : testtesttest
+2024-08-29 15:40:08.223  WARN 3791 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m45s654ms).
+2024-08-29 15:45:43.378  INFO 1212 --- [main] c.l.s.SpringBootLibraryApplication       : Starting SpringBootLibraryApplication using Java 16 on ouokiyas-MacBook-Air.local with PID 1212 (/Users/wangchongye/Desktop/spring-boot-library/spring-boot-library/target/classes started by wangchongye in /Users/wangchongye/Desktop/spring-boot-library)
+2024-08-29 15:45:43.381  INFO 1212 --- [main] c.l.s.SpringBootLibraryApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-29 15:45:45.062  INFO 1212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 15:45:45.201  INFO 1212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 5 JPA repository interfaces.
+2024-08-29 15:45:46.974  INFO 1212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-29 15:45:46.987  INFO 1212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-29 15:45:46.988  INFO 1212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-08-29 15:45:47.168  INFO 1212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-29 15:45:47.170  INFO 1212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3674 ms
+2024-08-29 15:45:47.638  INFO 1212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29 15:45:47.982  INFO 1212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29 15:45:48.137  INFO 1212 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 15:45:48.200  INFO 1212 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-08-29 15:45:48.437  INFO 1212 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-29 15:45:48.543  INFO 1212 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-29 15:45:49.219  INFO 1212 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 15:45:49.227  INFO 1212 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 15:45:52.022  WARN 1212 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 15:45:53.068  INFO 1212 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7bfedfb7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d3194ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@789f5552, org.springframework.security.web.header.HeaderWriterFilter@467421cc, org.springframework.web.filter.CorsFilter@393d4e34, org.springframework.security.web.authentication.logout.LogoutFilter@749ffdc7, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@464017f5, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@72e4ffa2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4d7fba20, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@123d666b, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@211cf27b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2267b0bb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20505460, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f3310fc, org.springframework.security.web.session.SessionManagementFilter@2b06c388, org.springframework.security.web.access.ExceptionTranslationFilter@34d0c331, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22a8c837]
+2024-08-29 15:45:53.720  INFO 1212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 15:45:53.741  INFO 1212 --- [main] c.l.s.SpringBootLibraryApplication       : Started SpringBootLibraryApplication in 11.156 seconds (JVM running for 12.047)
+2024-08-29 16:04:37.893  INFO 1212 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 16:04:37.908  INFO 1212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-29 16:04:37.977  INFO 1212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 43 ms
+2024-08-29 16:04:38.800  INFO 1212 --- [http-nio-8080-exec-2] c.l.s.controller.BookController          : testtesttest
+2024-08-29 16:04:43.102  INFO 1212 --- [http-nio-8080-exec-3] c.l.s.controller.BookController          : testtesttest
+2024-08-29 16:22:04.936  INFO 1212 --- [http-nio-8080-exec-5] c.l.s.controller.BookController          : testtesttest
+2024-08-29 16:32:10.579  INFO 1212 --- [http-nio-8080-exec-7] c.l.s.controller.BookController          : testtesttest
+2024-08-29 17:05:05.186  WARN 1212 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s74ms).
+2024-08-29 17:13:03.267  WARN 1212 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m57s985ms).
+2024-08-29 17:14:09.901  WARN 1212 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s639ms).
+2024-08-29 17:37:12.536  INFO 1212 --- [http-nio-8080-exec-10] c.l.s.controller.BookController          : testtesttest
+2024-08-29 18:33:19.909  INFO 1212 --- [http-nio-8080-exec-3] c.l.s.controller.BookController          : testtesttest
+2024-08-29 18:33:19.909  INFO 1212 --- [http-nio-8080-exec-4] c.l.s.controller.BookController          : testtesttest
+2024-08-29 18:33:19.954  INFO 1212 --- [http-nio-8080-exec-5] c.l.s.controller.BookController          : testtesttest
+2024-08-29 18:33:20.433  INFO 1212 --- [http-nio-8080-exec-6] c.l.s.controller.BookController          : testtesttest
+2024-08-29 18:33:21.939  INFO 1212 --- [http-nio-8080-exec-7] c.l.s.controller.BookController          : testtesttest
+2024-08-29 18:36:34.833  INFO 1212 --- [http-nio-8080-exec-9] c.l.s.controller.BookController          : testtesttest
+2024-08-29 19:01:39.375  INFO 1212 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 19:01:39.455  INFO 1212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-29 19:01:39.497  INFO 1212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-29 19:12:10.905 ERROR 4728 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [net.logstash.logback.appender.LogstashTcpSocketAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@4:95 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [LOGSTASH]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.luv2code.springbootlibrary.SpringBootLibraryApplication.main(SpringBootLibraryApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [net.logstash.logback.appender.LogstashTcpSocketAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@4:95 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [LOGSTASH]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 18 common frames omitted
+
+2024-08-29 19:12:36.269 ERROR 4731 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [net.logstash.logback.appender.LogstashTcpSocketAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@4:95 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [LOGSTASH]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.luv2code.springbootlibrary.SpringBootLibraryApplication.main(SpringBootLibraryApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [net.logstash.logback.appender.LogstashTcpSocketAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@4:95 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [LOGSTASH]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 18 common frames omitted
+
